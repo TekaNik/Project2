@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  body form input {
+    width: 100%;
+  }
+  /* input[type= radio] {
+    display: none;
+    display: inline;
+  } */
+  body {
+    margin: 0 auto;
+    /* background:    url(https://cdn.pixabay.com/photo/2018/06/17/19/12/church-3481187__340.jpg)  no-repeat rgba(8, 65, 92, 0.2); */
+      background: linear-gradient(rgba(8, 65, 92, 0.2), rgba(139, 232, 164, 0.5)), url(https://cdn.pixabay.com/photo/2018/05/24/09/54/dove-3426187__340.jpg) no-repeat;
+      background-size: cover;
+      color: #fff;
+  }
+  #title{
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    font-family: cursive;
+    font-size: 7vw;
+    background: rgba(8, 65, 92, 0.2);
+    width: 100%;
+  }
+  #title span {
+    display: block;
+    font-size: 20px;
+    margin-top: 1em;
+  
+  }
+  #description {
+    padding-top: 9px;
+    text-align: center;
+    margin-bottom: 5em;
+    width: auto;
+  
+  }
+  #survey-form {
+    padding: 16px;
+    margin: 0 auto;
+    /* background: #08415C ; */
+    background: rgba(8, 65, 92, 0.1);
+    max-width: 50%;
+    box-shadow: 5px 10px 11px 5px rgb(139, 232, 164) ;
+    border-radius: 1em;
+  
+  }
+  
+  #survey-form label, #survey-form input, #survey-form select, #survey-form button{
+    display: block;
+    padding: 20px;
+  }
+  #name, #email , #number {
+    width: 93%;
+    margin: 12px 0;
+  
+  
+  
+  }
+  
+  
+  #prayer-label {
+    display: inline-block;
+    margin: 12px 0;
+    text-transform: capitalize;
+  }
+  #recommend-label{
+    text-transform: capitalize;
+  }
+  
+  /* #name-label, #email-label, #number-label{
+    display: inline-block;
+    margin: 10px 0;
+  } */
+  textarea {
+    margin: 14px 0;
+    width: 100%;
+    height: 10em;
+  }
+  #button {
+    width: 100%;
+  }
+  input[type: radio] {
+    display: none;
+  }
+  label#recommend-label input[type=radio], input[type=checkbox] {
+    margin-top: 2em;
+  
+  }
+  

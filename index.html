@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title> survey form</title>
+  </head>
+  <body>
+
+    <h1 id="title">apostolic faith church <span>prayer request form<span></h1>
+  <p id="description"> "...votre Père qui est dans les cieux donnera de bonnes choses à ceux qui les lui demandent(Mt 7)"</p>
+
+  <form id="survey-form" action="#" method="post">
+
+    <lab for="name-label" id="name-label">Name</lab>
+    <input type="text" id="name" placeholder="Enter your name" required>
+    <lab for="email-label" id="email-label">Email</lab>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <lab for="age" id="number-label"  >Age(optional)</lab>
+    <input type="number" id="number" min="10" max="50" placeholder="Enter your age" required>
+
+    <lab for="age" id="prayer-label">please pray for me in the following area</lab>
+    <select name="" id="dropdown">
+      <option value="">General</option>
+      <option value="">Emotional healing</option>
+      <option value="">physical healing</option>
+      <option value="">Finances</option>
+      <option value="">Relationship</option>
+      <option value="Spiritual growth">Spiritual growth</option>
+
+    </select>
+      <label id="recommend-label">would you recommend our church to your friends & family?</label>
+    <input type="radio" name="option" checked>Definately
+    <input type="radio" name="option">Maybe
+    <input type="radio" name="option">Not Sure
+    <label>what do you like the most about our church(Check all that apply)</label>
+      <input type="checkbox" name="checkboxes" value="sunday-Services"> Sunday Services
+      <input type="checkbox" name="checkboxes" value="Camp-Meetings"> Camp Meetings
+      <input type="checkbox" name="checkboxes" value="Devotional-Services"> Devotional Services
+      <input type="checkbox" name="checkboxes" value="Choir-Music-worship"> Choir & Music & Worship
+      <input type="checkbox" name="" value="Anniversary-Celebrations"> Anniversary Celebrations
+      <input type="checkbox" name="checkboxes" value="Refugies-program"> Refugies Program
+      <input type="checkbox" name="checkboxes" value="Youth-meetings"> Youth Meetings
+      <input type="checkbox" name="checkboxes" value="Training-pastorship"> Training & Pastorship
+      <label for="">Any comments or suggestions</label>
+      <textarea name="name" placeholder="Enter your comments & suggestions here"></textarea>
+      <button type="submit" id="button"name="button">submit</button>
+
+  </form>
+  </body>
+</html>
